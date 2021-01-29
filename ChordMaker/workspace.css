@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#info-container {
+    border-style: solid none solid none;
+    border-width: 1px;
+
+    padding: 5px;
+
+    height: 70px;
+    width: 100%;
+
+    position: stikcy;
+}
+
+#info-section {
+    width: inherit;
+    height: 70%;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: transparent;
+
+    height: 40%;
+}
+input:hover {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+input:focus {
+    outline: none;
+    border-style: solid;
+    border-color: #0066ff;
+    border-width: 1px;
+}
+#date:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+#date:focus {
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+
+#submit-button {
+    visibility: hidden;
+}
+
+div.ui-title {
+    background-color: #ffffff;
+    margin: 0px;
+    float: left;
+}
+div.ui-actions {
+    width: 100%;
+    background-color: #ffffff;
+    display: none;
+
+    position: relative;
+    z-index: 1;
+}
+div.actions-of-action {
+    background-color: #ffffff;
+    display: none; 
+    position: absolute; 
+}
+
+button.title {
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 2px;
+    width:100%;
+}
+button.title:hover, button.actions:hover {
+    background-color: #dddddd;
+}
+button.title:focus {
+    outline: none;
+    background-color: #007bff;
+}
+
+button.actions {
+    border-style: none;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: left;
+}
+button.actions:focus {
+    outline: none;
+    background-color: #bbbbbb;
+}
+
+b.arrow {
+    float: right;
+}

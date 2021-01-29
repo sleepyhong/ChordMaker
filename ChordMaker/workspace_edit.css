@@ -1,0 +1,65 @@
+div#editing-table {
+    float: left;
+    z-index: 0;
+
+    background-color: #ffffff;
+
+    margin: 0px;
+
+    width: 20%;
+}
+
+div#zoom {
+    z-index: 0;
+}
+button.zoom-button {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+div#zoom-value {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+
+    width: 3em;
+    height: 20px;
+    
+    margin: 0px;
+    padding: 0px;
+
+    text-align: center;
+}
+div#zoom-value:hover {
+    background-color: #eeeeee;
+}
+
+label.editing-table-labels {
+    font-weight: bold;
+    float: left;
+}
+.editing-table-inputs {
+    float: right;
+}
+
+button#editing-table-text-bold, button#editing-table-text-italic, button#editing-table-text-underline {
+    background-color: #ffffff;
+    
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-radius: 2px;
+    
+    margin: 1px;
+
+    width: 25px;
+    height: 25px;
+}
+button#editing-table-text-bold:hover, button#editing-table-text-italic:hover, button#editing-table-text-underline:hover {
+    background-color: #dddddd;
+}
+
+input#editing-table-text-color, input#editing-table-background-color {
+    width: 100px;
+    height: 20px;
+}

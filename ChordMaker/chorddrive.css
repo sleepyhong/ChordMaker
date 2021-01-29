@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+#menu {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+#list {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+
+    float: right;
+}
+
+tr.music:hover {
+    background-color: yellow;
+}
+
+td.name {
+    text-align: left;
+}
+
+td.songwriters {
+    text-align: center;
+}
+
+td.album {
+    text-align: center;
+}
+
+td.date {
+    text-align: center;
+}
+
+td.deleteButton {
+    text-align: right;
+}
+
+.popup {
+    display: none;
+}
